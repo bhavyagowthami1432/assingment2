@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <video src="videoplayback.mp4" autoplay controls id="video">
+
+    </video>
+
+    <button type="button" name="button" onclick="play()">play</button>
+    <button type="button" name="button"  onclick="pause()">pause</button>
+    <audio src="/home/acer/Desktop/assignment1-master/assingment2/Andhamaina Chandhamaama -- Naasongs.me.mp3" autoplay controls id="audio">
+
+    </audio>
+
+    <button type="button" name="button" onclick="play()">play</button>
+    <button type="button" name="button" onclick="pause()">pause</button>
+
+  </body>
+</html>
+<script type="text/javascript">
+function play(){
+  var vid=document.getElementById('video');
+  vid.play();
+}
+
+function pause(){
+  var vid=document.getElementById('video');
+  vid.pause();
+}
+
+</script>
+<script type="text/javascript">
+function play(){
+  var vid=document.getElementById('audio');
+  vid.play();
+}
+
+function pause(){
+  var vid=document.getElementById('audio');
+  vid.pause();
+}
+
+</script>
